@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url("/bilder/34.svg");
+}
+header {
+  background: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.nav-wrapper {
+  text-align: center;
+}
+.nav-wrapper a {
+  color: #000000;
+  text-decoration: none;
+  padding: 40px;
+}
+
+.pic {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img1 img,
+.img2 img,
+.img3 img {
+  width: 500px;
+  margin: 10px;
+  padding: 30px;
+}
+.hometext h1 {
+  background: #ba9562;
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.hometext p {
+  background: #ba9562;
+  padding: 0 200px 200px 200px;
+  text-align: center;
+  color: white;
+}
+
+.meetgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  background: #1e0904;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin-top: 50px;
+}
+
+.meet p {
+  padding: 0 90px 0 90px;
+  background: rgb(255, 255, 255);
+}
+
+.imgowner img {
+  height: 600px;
+  margin: 20px;
+  padding: 50px;
+}
+
+footer {
+  height: 50px;
+  background-color: #1e0904;
+  color: white;
+  text-align: center;
+}
